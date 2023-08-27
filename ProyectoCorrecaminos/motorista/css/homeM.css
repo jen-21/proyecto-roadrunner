@@ -1,0 +1,155 @@
+body{
+    background: #942bb1;
+}
+.icono{
+    width: 100px; 
+    height: 100px;
+}
+.titulo{
+    color: #942bb1;
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.inicio-fondo{
+    background-color: #7705c9c8;
+    background-image: url(../img/icono/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+   
+}
+.contenido-inicio{
+    background-color: #7705c9c8;
+    height: 100vh;
+    
+}
+.formulario{
+    background-color: #7705c9c8 ;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(0, 0, 0);
+    
+}
+.boton-inicio{
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#titulo-inicio{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.espacio{
+    height: 80px;
+}
+
+.boton-personalizado{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.menu{
+    background-color: #942bb1;
+
+}
+.contenido-menu{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.opciones{
+    width: 450px;
+    height: 200px;
+    border-color: rgb(0, 0, 0) ;
+    border: 3px solid;
+}
+.menu-img{
+    width: 30% ;
+    height: auto;
+}
+
+.titulo-menu{
+    font-size: 40px;
+
+}
+.titulos{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+      
+}
+.boton-ad{
+    width: 150px;
+    border-radius: 20px;
+}
+.boton-moto{
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 0px;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    float:right;
+    
+}
+.card{
+    margin-bottom: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgb(0, 0, 0);
+   
+}
+.img-producto{
+    width: 150px;
+    height: auto;
+    float: left;
+    padding: 3px;
+}
+.img-logocard{
+    width: 40px;
+    height: auto;
+    float: right;
+}
+.orden-moto{
+    background-color: rgb(250, 128, 114);
+    color: rgb(255, 255, 255);
+}
+
+#admin-Empresas{
+    display: none;
+}
+#admin-Productos{
+    display: none;
+}
+#motorista{
+    display: none;
+}
+#ordenes{
+    display: none;
+}

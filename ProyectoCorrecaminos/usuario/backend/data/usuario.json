@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "nombre": "Zoe",
+        "contrasena":"asd.123"
+    },
+    {
+        "id":2,
+        "nombre": "Blue",
+        "contrasena":"asd.124"
+    }
+]
